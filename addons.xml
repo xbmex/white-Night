@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="plugin.video.iptv.latinoamerica"
+       name="IPTV Latinoamerica"
+       version="1.6.7"
+       provider-name="MAXIMUS">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" />
+    <import addon="plugin.video.youtube" />
+    <import addon="script.module.urlresolver" />
+    <import addon="script.module.simplejson" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>IPTV Latinoamerica - shamelessly forked from livestreams but added many options</summary>
+    <description>
+	SOMOS IPTV LATINOAMERICA DISFRUTA NUESTRO SERVICIO!! MAS INFORMACION VISITA NUESTRA PAGINA WEB WWW.IPTVLATINOAMERICA.COM Y ENVIANOS TUS SUGERENCIAS O REPORTES AL CORREO: IPTVLATINOAMERICA@GMAIL.COM
+    </description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.tvmasplus" name="Tvmasplus" version="1.0.3" provider-name="Maximus">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Basado en Livestream modificado por usuarios independientes</summary>
+    <description lang="en">Modificado para ser usado por Tvmasplus para su distribucion independiente</description>
+    <disclaimer lang="en">Using this add-on is free and at your own risk if the law prohibits the use </disclaimer>
+		<disclaimer lang="es">Bajo riesgo propio y no del autor</disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="repository.Maximus Mexico" name="Maximus Addons Repositorio" version="1.0.3" provider-name="Maximus">
+        <extension point="xbmc.addon.repository" name="Maximus Addons Repositorio">
+                <info compressed="false">https://raw.githubusercontent.com/xbmex/ver/master/addons.xml</info>
+                <checksum>https://raw.githubusercontent.com/xbmex/ver/master/addons.xml.md5</checksum>
+                <datadir zip="true">https://raw.githubusercontent.com/xbmex/ver/master/</datadir>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+                <summary>Maximus Addons Repositorio</summary>
+                <description>Los repositorios y add-ons recomendados por la Comunidad XBMC/KODI Mexico cualquier duda o comentario escribenos en facebook/comunidadxbmcmexico o a martin.13xx@gmail.com
+apoya ala comunidad dejando tus comentarios y sugerencias
+                </description>
+                <platform>all</platform>
+        </extension>
+</addon>
+
+<addon id="script.module.urlresolver"
+     name="URLResolver"
+     version="2.9.9"
+     provider-name="Eldorado">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+    <import addon="script.module.t0mm0.common" version="2.0.0"/>
+    <import addon="script.module.simplejson" version="3.3.0"/>
+    <import addon="plugin.video.youtube" version="4.4.7"/>
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">Resolve common video host URL's to be playable in XBMC/Kodi.</summary>
+    <description lang="en">Resolve common video host URL's to be playable in XBMC/Kodi, simplify addon development of video plugins requiring multi video hosts.</description>
+  </extension>
+</addon>
+
+
+<addon
+  id="skin.unity"
+  version="0.4.1"
+  name="Unity"
+  provider-name="Eddage, Bumpaneer">
+  <requires>
+    <import addon="xbmc.gui" version="5.9.0"/>
+		<import addon="script.skinshortcuts" version="0.6.0"/>
+  </requires>
+  <extension
+    point="xbmc.gui.skin"
+    debugging="false"
+    effectslowdown="1.0">
+    <res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">A new skin for Kodi 13 Gotham by Eddage</summary>
+    <summary lang="en_AU">A new skin for Kodi 13 Gotham by Eddage</summary>
+    <summary lang="en_NZ">A new skin for Kodi 13 Gotham by Eddage</summary>
+    <summary lang="en_US">A new skin for Kodi 13 Gotham by Eddage</summary>
+		<description lang="en">Unity is an adaptation of Confluence based on a material design.</description>
+		<description lang="en_AU">Unity is an adaptation of Confluence based on a material design.</description>
+		<description lang="en_NZ">Unity is an adaptation of Confluence based on a material design.</description>
+		<description lang="en_US">Unity is an adaptation of Confluence based on a material design.</description>
+		<disclaimer lang="en">More info on the skin can be found at the Kodi Forums.</disclaimer>
+		<disclaimer lang="en_AU">More info on the skin can be found at the Kodi Forums.</disclaimer>
+		<disclaimer lang="en_NZ">More info on the skin can be found at the Kodi Forums.</disclaimer>
+		<disclaimer lang="en_US">More info on the skin can be found at the Kodi Forums.</disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
+</addons>
