@@ -1,18 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="repository.White Night" name="White Night Addons Repositorio" version="1.0.0" provider-name="White Night">
-        <extension point="xbmc.addon.repository" name="White Night Addons Repositorio">
-                <info compressed="false">https://raw.githubusercontent.com/xbmex/white-Night/master/addons.xml</info>
-                <checksum>https://raw.githubusercontent.com/xbmex/white-Night/master/addons.xml.md5</checksum>
-                <datadir zip="true">https://raw.githubusercontent.com/xbmex/white-Night/master/</datadir>
-        </extension>
-        <extension point="xbmc.addon.metadata">
-                <summary>White Night Addons Repositorio</summary>
-                <description>Watch TV shows and movies recommended just for you,original series, movies, and documentaries.</description>
-                <platform>all</platform>
-        </extension>
-</addon>
-
 <addon id="plugin.video.tvmasplus" name="Tvmasplus" version="1.0.3" provider-name="Maximus">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -25,7 +12,7 @@
     <import addon="script.module.youtube.dl" optional="true"/>
     <import addon="plugin.video.youtube" />
     <import addon="script.module.urlresolver" optional="true"/>
-    <import addon="script.module.simplejson" />    
+    <import addon="script.module.simplejson" />
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
@@ -34,9 +21,21 @@
     <summary>Basado en Livestream modificado por usuarios independientes</summary>
     <description lang="en">Modificado para ser usado por Tvmasplus para su distribucion independiente</description>
     <disclaimer lang="en">Using this add-on is free and at your own risk if the law prohibits the use </disclaimer>
-                <disclaimer lang="es">Bajo riesgo propio y no del autor</disclaimer>
+		<disclaimer lang="es">Bajo riesgo propio y no del autor</disclaimer>
     <platform>all</platform>
   </extension>
 </addon>
 
+<addon id="repository.White Night" name="White Night Addons Repositorio" version="1.0.0" provider-name="White Night">
+        <extension point="xbmc.addon.repository" name="White Night Addons Repositorio">
+                <info compressed="false">https://raw.githubusercontent.com/xbmex/white-Night/master/addons.xml</info>
+                <checksum>https://raw.githubusercontent.com/xbmex/white-Night/master/addons.xml.md5</checksum>
+                <datadir zip="true">https://raw.githubusercontent.com/xbmex/white-Night/master/</datadir>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+                <summary>White Night Addons Repositorio</summary>
+                <description>Watch TV shows and movies recommended just for you,original series, movies, and documentaries.</description>
+                <platform>all</platform>
+        </extension>
+</addon>
 </addons>
