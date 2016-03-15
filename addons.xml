@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.A1-LIVE-TV" name="[COLOR skyblue]A1 LIVE TV[/COLOR]" version="1.0.1" provider-name="white Night">
+<addon id="plugin.video.A1-LIVE-TV" name="[COLOR skyblue]A1 LIVE TV[/COLOR]" version="1.0.2" provider-name="white Night">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
@@ -52,7 +52,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.tvmasplus" name="[COLOR lime]*Tvmasplus La TV como la querias[/COLOR][COLOR white]VER!*[/COLOR]" version="1.0.6" provider-name="Maximus">
+<addon id="plugin.video.tvmasplus" name="[COLOR lime]*Tvmasplus La TV como la querias[/COLOR][COLOR white]VER!*[/COLOR]" version="1.1.0" provider-name="Maximus">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
